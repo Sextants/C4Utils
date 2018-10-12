@@ -1,0 +1,28 @@
+{
+  "name": "c4utils",
+  "version": "0.0.1",
+  "description": "C4Framework Utils",
+  "main": "out/index.js",
+  "typings": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sextants/C4Utils.git"
+  },
+  "keywords": [
+    "C4Framework",
+    "Utils"
+  ],
+  "author": "Sextant",
+  "bugs": {
+    "url": "https://github.com/Sextants/C4Utils/issues"
+  },
+  "homepage": "https://github.com/Sextants/C4Utils#readme",
+  "dependencies": {
+    "@types/glob": "^5.0.35",
+    "@types/node": "^9.4.7",
+    "glob": "^7.1.2"
+  }
+}
