@@ -1,5 +1,5 @@
 {
-  "name": "@wind-mobility/c4utils",
+  "name": "c4utils",
   "version": "0.0.4",
   "description": "C4Framework Utils",
   "main": "out",
