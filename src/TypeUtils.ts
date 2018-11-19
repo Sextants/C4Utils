@@ -54,6 +54,30 @@ export function isFunction(obj : any) {
     return Object.prototype.toString.call(obj) === '[object Function]';
 }
 
+export function isAsyncFunction(obj: any) {
+    return  Object.prototype.toString.call(obj) === '[object AsyncFunction]';
+}
+
+export function isPromise(obj: any) {
+    return Object.prototype.toString.call(obj) === '[object Promise]';
+}
+
+export function isGeneratorFunction(obj: any) {
+    return Object.prototype.toString.call(obj) === '[object GeneratorFunction]';
+}
+
+export function isMap(obj: any) {
+  return Object.prototype.toString.call(obj) === '[object Map]';
+}
+
+export function isSet(obj: any) {
+  return Object.prototype.toString.call(obj) === '[object Set]';
+}
+
+export function isSymbol(obj: any) {
+    return Object.prototype.toString.call(obj) === '[object Symbol]';
+}
+
 export function checkType(obj : any, Type : any) {
     return obj instanceof Type;
 }

@@ -63,6 +63,30 @@ function isFunction(obj) {
     return Object.prototype.toString.call(obj) === '[object Function]';
 }
 exports.isFunction = isFunction;
+function isAsyncFunction(obj) {
+    return Object.prototype.toString.call(obj) === '[object AsyncFunction]';
+}
+exports.isAsyncFunction = isAsyncFunction;
+function isPromise(obj) {
+    return Object.prototype.toString.call(obj) === '[object Promise]';
+}
+exports.isPromise = isPromise;
+function isGeneratorFunction(obj) {
+    return Object.prototype.toString.call(obj) === '[object GeneratorFunction]';
+}
+exports.isGeneratorFunction = isGeneratorFunction;
+function isMap(obj) {
+    return Object.prototype.toString.call(obj) === '[object Map]';
+}
+exports.isMap = isMap;
+function isSet(obj) {
+    return Object.prototype.toString.call(obj) === '[object Set]';
+}
+exports.isSet = isSet;
+function isSymbol(obj) {
+    return Object.prototype.toString.call(obj) === '[object Symbol]';
+}
+exports.isSymbol = isSymbol;
 function checkType(obj, Type) {
     return obj instanceof Type;
 }

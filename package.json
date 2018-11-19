@@ -1,6 +1,6 @@
 {
-  "name": "c4utils",
-  "version": "0.0.2",
+  "name": "@wind-mobility/c4utils",
+  "version": "0.0.4",
   "description": "C4Framework Utils",
   "main": "out",
   "scripts": {
